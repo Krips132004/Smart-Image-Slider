@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="slider-container">
+    <h2>📸 Smart Image Slider</h2>
+    <div class="slider">
+      <img id="slide-img" src="" alt="Slide">
+      <p id="caption"></p>
+      <p id="counter"></p>
+    </div>
+
+    <div class="controls">
+      <button id="prevBtn">⬅ Prev</button>
+      <button id="nextBtn">Next ➡</button>
+      <button id="playBtn">▶ Play</button>
+      <button id="pauseBtn">⏸ Pause</button>
+    </div>
+
+    <div class="input-section">
+      <h3>Add New Slide</h3>
+      <input type="text" id="imgUrl" placeholder="Image URL">
+      <input type="text" id="imgCaption" placeholder="Image Caption">
+      <button id="addBtn">Add Slide</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
